@@ -8,8 +8,8 @@ const Counter = () =>{
         <h3>Counter</h3>
         <h4>Value: {count}</h4>
         
-       <div> <button onClick={() => dispatch(increment())}>+</button></div>
-         <div> <button onClick={() => dispatch(decrement())}>-</button>  </div>
+       <div> <button onClick={() => dispatch(increment())}>INC 5</button></div>
+         <div> <button onClick={() => dispatch(decrement())}>DEC 5</button>  </div>
         
         </>
     )
